@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Jost", sans-serif;
+}
+nav {
+  z-index: 10001 !important;
+}
+.gradientBg {
+  background: linear-gradient(
+    to bottom right,
+    #67457c 77%,
+    #59a3f9 100%,
+    #59a3f9 100%
+  );
+}
+@media screen and (min-width: 768px) {
+  .flipped-image {
+    transform: scaleX(-1);
+  }
+}
