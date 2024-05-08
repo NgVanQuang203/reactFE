@@ -24,12 +24,8 @@ const Features = () => {
           </p>
         </motion.div>
         {/* Featured cards */}
-        <motion.div
-          variants={fadeIn("up", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
-          className="w-full lg:w-3/4"
+        <div
+          
         >
           <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
             <div
@@ -69,7 +65,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
